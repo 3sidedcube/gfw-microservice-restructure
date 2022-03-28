@@ -18,7 +18,6 @@ WORKDIR /opt/$NAME
 
 COPY ./app /opt/$NAME/app
 COPY ./.babelrc /opt/$NAME/.babelrc
-COPY ./nodemon.json /opt/$NAME/nodemon.json
 COPY ./tsconfig.json /opt/$NAME/tsconfig.json
 RUN yarn build
 

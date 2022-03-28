@@ -7,4 +7,5 @@ services:
     container_name: gfw-ts-test
     volumes:
       - ./app:/opt/gfw-ts-test/app
+      - ./nodemon.json:/opt/gfw-ts-test/nodemon.json
     command: yarn dev
