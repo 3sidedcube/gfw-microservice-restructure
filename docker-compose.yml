@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+  develop:
+    build: .
+    ports:
+      - "4401:4401"
+    container_name: gfw-ts-test
+    volumes:
+      - ./app:/opt/gfw-ts-test/app
+    command: yarn dev
