@@ -8,5 +8,8 @@
         "extensions": [".js", ".ts"]
       }
     ]
-  ]
+  ],
+  "targets": {
+    "node": "12.22.11"
+  }
 }
